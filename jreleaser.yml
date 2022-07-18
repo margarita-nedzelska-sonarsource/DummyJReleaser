@@ -16,6 +16,10 @@ project:
 release:
   github:
     owner: duke
+    changelog:
+      formatted: ALWAYS
+      format: '- {{commitShortHash}} {{commitTitle}}'
+      skipMergeCommits: true
 
 distributions:
   app:
